@@ -3,13 +3,28 @@
 **/private/
 **/secrets/
 
-# Large media files
-*.mp4
-*.mov
-*.zip
+# Runtime state and raw records
+**/state/
+**/inbox/
+**/outbox/
+**/snapshots/
+**/logs/
+**/raw/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.jsonl
+*.log
 
-# macOS
-.DS_Store
+# Raw media and export bundles
+*.mov
+*.m4a
+*.mp4
+*.wav
+*.zip
+*.tar
+*.tar.gz
 
 # Environment files and credentials
 .env
@@ -17,6 +32,9 @@
 *.pem
 *.key
 
-# Python
+# Local operating-system and Python artifacts
+.DS_Store
 __pycache__/
+*.py[cod]
+.pytest_cache/
 .venv/
