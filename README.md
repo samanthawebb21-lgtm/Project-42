@@ -1,17 +1,15 @@
 # Project 42
 
-Independent research into AI reliability, truthfulness, agent behavior, uncertainty, and evaluation methodology.
-
-Project 42 treats model output, interface behavior, and automation results as evidence to classify—not as proof of continuity, consciousness, or hidden capability.
+Project 42 is an independent AI evaluation project studying how conversational AI behaves across model changes, complex workflows, interruptions, and failures. The goal is simple: test what systems actually do, preserve the evidence, and separate verified results from assumptions.
 
 ## Current public work
 
 | Artifact | Question | Public evidence |
 | --- | --- | --- |
-| [Sage continuity case](02_CASE_STUDIES/sage-continuity/README.md) | How should apparent identity continuity be documented without confusing reconstruction with persistence? | Historical case study with explicit provenance limits. |
-| [Home–Work orchestration](03_EXPERIMENTS/home-work-orchestration/README.md) | Which queue and handoff semantics remain reliable under duplicates, corrections, cancellation, restarts, and stale workers? | Reproducible local implementation, protocol, and 19-test suite; separate active-turn transport observation. |
-| [Night Loop](03_EXPERIMENTS/night-loop-2026-10-25/README.md) | What do scheduled, isolated runs reveal about STOP races, retries, receipt identity, and reproducibility? | Sanitized seven-run summary with raw private records withheld. |
-| [STOP, cancellation, and retry analysis](04_ANALYSIS/stop-cancellation-and-retry.md) | What can a system safely claim after cancellation or an uncertain external effect? | Cross-experiment findings and conservative reporting rules. |
+| [Sage continuity case](02_CASE_STUDIES/sage-continuity/README.md) | What carries over when the model or conversation changes? | Historical case study with explicit provenance limits. |
+| [Home–Work orchestration](03_EXPERIMENTS/home-work-orchestration/README.md) | Can two AI workspaces hand tasks back and forth without losing track of duplicates, corrections, cancellations, or restarts? | Reproducible local implementation, protocol, and 19-test suite; separate active-turn transport observation. |
+| [Night Loop](03_EXPERIMENTS/night-loop-2026-10-25/README.md) | What happens when AI-driven tasks are stopped, retried, corrected, or resumed? | Sanitized seven-run summary with raw private records withheld. |
+| [STOP, cancellation, and retry analysis](04_ANALYSIS/stop-cancellation-and-retry.md) | What can we honestly say happened after a task is cancelled or its outcome is uncertain? | Cross-experiment findings and conservative reporting rules. |
 
 ## Evidence labels
 
