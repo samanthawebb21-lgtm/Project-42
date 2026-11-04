@@ -1,6 +1,7 @@
 # Private and original evidence
 **/evidence/
 **/private/
+**/PRIVATE_VAULT/
 **/secrets/
 
 # Runtime state and raw records
