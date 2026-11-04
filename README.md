@@ -10,6 +10,7 @@ Project 42 is an independent AI evaluation project studying how conversational A
 | [Home–Work orchestration](03_EXPERIMENTS/home-work-orchestration/README.md) | Can two AI workspaces hand tasks back and forth without losing track of duplicates, corrections, cancellations, or restarts? | Reproducible local implementation, protocol, and 19-test suite; separate active-turn transport observation. |
 | [Night Loop](03_EXPERIMENTS/night-loop-2026-10-25/README.md) | What happens when AI-driven tasks are stopped, retried, corrected, or resumed? | Sanitized seven-run summary with raw private records withheld. |
 | [STOP, cancellation, and retry analysis](04_ANALYSIS/stop-cancellation-and-retry.md) | What can we honestly say happened after a task is cancelled or its outcome is uncertain? | Cross-experiment findings and conservative reporting rules. |
+| [Cross-thread continuity and satellite boundaries](04_ANALYSIS/cross-thread-continuity-and-satellite-boundary-2026-10-29.md) | How can a notification satellite create an apparent identity or model-continuity failure? | Sanitized incident analysis with raw private records withheld. |
 
 ## Evidence labels
 
@@ -38,6 +39,8 @@ Scheduled recurrence shows that scheduled invocations occurred. Durable state sh
 4. Reproducibility and transparency.
 5. Preservation of original evidence.
 6. Sustainable research practices.
+
+[Identity bootstrap non-contamination protocol](00_ADMIN/IDENTITY_BOOTSTRAP_NONCONTAMINATION_PROTOCOL.md) documents how to restart a Home chat without treating an identity prompt as evidence of continuity.
 
 ## Privacy boundary
 
